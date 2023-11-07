@@ -1,0 +1,123 @@
+body{
+  width:100vw;
+  height:100vh;
+  padding:0;
+  margin:0;
+  background-image:url("bg.jpg");
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  backdrop-filter:blur(1px);
+}
+@media(max-width: 768px){
+.ctn{
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.hero{
+  margin-top:8.3rem;
+  margin-left:5px;
+  padding:2.3rem;
+  display:flex;
+  flex-direction:column;
+  align-self: center;
+  justify-content: center;
+}
+q{
+  color:#1F1F1F;
+  font:25px solid verdana;
+  font-weight:550;
+  height:40vh;
+  overflow:scroll;
+  padding-right:1rem;
+}
+.author{
+  color:#EAB977;
+  font-size:18px;
+  font-weight:600;
+  align-self:center;
+  padding:0.5rem;
+  background-color: transparent;
+  border:2px solid #EAB977;
+  border-radius:10px;
+  text-align:center;
+  
+}
+button{
+  color:#EAB977;
+  background-color: transparent;
+  border:2px solid #EAB977;
+  border-radius:10px;
+  padding:0.5rem;
+  font-size:19px;
+  font-weight:650;
+  width:8rem;
+  align-self: center;
+  text-align: center;
+}
+button:hover{
+  background-color:#EAB977;
+  color:#fff;
+}
+}
+@media(min-width: 769px){
+  .ctn{
+  margin-left:4.1rem;
+  padding:0;
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top:22%;
+}
+.hero{
+  padding:4.5rem;
+  margin-left:-2rem;
+  margin-right:1rem;
+  display:flex;
+  flex-direction:column;
+  align-self: center;
+  justify-content: center;
+  
+}
+q{
+  color:#1F1F1F;
+  font:70px solid verdana;
+  font-weight:550;
+  height:40vh;
+  overflow:scroll;
+  padding-right:1rem;
+}
+.author{
+  color:#EAB977;
+  font-size:60px;
+  font-weight:600;
+  align-self:center;
+  padding:0.5rem;
+  background-color: transparent;
+  border:5px solid #EAB977;
+  border-radius:10px;
+  text-align:center;
+}
+button{
+  color:#EAB977;
+  background-color: transparent;
+  border:5px solid #EAB977;
+  border-radius:10px;
+  padding:1rem;
+  font-size:50px;
+  font-weight:650;
+  width:20rem;
+  align-self: center;
+  text-align: center;
+}
+button:hover{
+  background-color:#EAB977;
+  color:#fff;
+}
+}
